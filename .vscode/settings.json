@@ -1,8 +1,8 @@
 {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.formatOnPaste": true,
     "files.trimTrailingWhitespace": true,
-    "files.autoSave": "onFocusChange",
+    // "files.autoSave": "onFocusChange",
     "git.autofetch": true,
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -25,5 +25,15 @@
     ],
     "isort.args": [
         "--settings-path=pyproject.toml"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#edb456",
+        "activityBar.background": "#edb456",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#0f905f",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "sash.hoverBorder": "#edb456"
+    },
+    "peacock.remoteColor": "#e89f28"
 }
